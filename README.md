@@ -1,11 +1,7 @@
-# ETA-Predictive-Analytics
+# Dynamic ETA Prediction System
 
 Introduction :-
-The objective of this project was to design and implement a machine learning model capable of predicting the Estimated Time of Arrival (ETA) for routes in a fictional city. The system aims to factor in various elements such as the distance of the route, traffic conditions, the number of turns, and traffic lights, among others, to make accurate predictions.
-
-The data was simulated, and various features were engineered to capture the complexity of real-world traffic and route characteristics. Two machine learning models, Decision Tree Regressor and Random Forest Regressor, were employed to predict the ETA, and their performances were compared.
-
-A key observation was that "Time of Day" and "Day of the Week" did not have a significant impact on ETA, whereas "Distance," "Current Speed," and "Historical Average Speed" were the most influential features.
+This project provides a comprehensive solution for estimating the Estimated Time of Arrival (ETA) across city routes, simulating real-world scenarios using synthetic data. By leveraging OpenStreetMaps data and generating variables for route complexity, traffic conditions, and time of day, the project builds a robust framework for analyzing and predicting ETA dynamically. The system allows for continuous updates to ETA predictions as new data on route conditions become available, enabling flexible, segment-level estimations that adjust in real-time.
 
 Model Development :-
 Two models were trained on this dataset:
